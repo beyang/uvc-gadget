@@ -44,7 +44,6 @@ cat <<EOF > /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/mjpeg
 7372800
 EOF
 
-
 mkdir /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/header/h
 cd /sys/kernel/config/usb_gadget/pi4/functions/uvc.usb0/streaming/header/h
 ln -s ../../mjpeg/m
